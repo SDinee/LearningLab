@@ -1,0 +1,106 @@
+<!--Estrutura básica:
+    HTML: Estrutura, conteúdo, marcação
+    CSS: Apresentação, estilo, formatação
+    JavaScript: Interatividade, funcionalidade, comportamento!-->
+
+<!DOCTYPE html>
+<!-- Informa ao navegador que este arquivo usa HTML5 -->
+
+<html>
+<!--Tag principal da página. Todo o conteúdo do site fica dentro dela.
+É como a estrutura geral do documento.-->
+
+<head>
+  <!--Área de configurações da página. Aqui ficam informações que normalmente NÃO aparecem
+  diretamente no site, mas ajudam o navegador.
+  
+  Exemplos:
+  - título da aba
+  - conexão com CSS
+  - conexão com JavaScript
+  - configuração de caracteres
+  -->
+
+  <meta charset="UTF-8">
+  <!-- Define o padrão de caracteres da página.
+  
+  O UTF-8 permite usar:
+  - acentos (á, é, ç)
+  - símbolos
+  - emojis
+  
+  Sem isso, alguns textos podem aparecer quebrados. -->
+
+  <meta name="author" content="Peter Jackson">
+    <!-- Define o autor da página. -->
+
+  <link rel="stylesheet" href="styles.css"> 
+  <script src="script.js"></script>
+  <!-- Conecta a página a um arquivo CSS para estilos e um arquivo JavaScript para interatividade. -->
+
+  <title>Minha Primeira Página</title>
+  <!--Define o nome da página que aparece:
+  - na aba do navegador
+  - nos favoritos
+  - em pesquisas
+  
+  NÃO aparece dentro do conteúdo do site.-->
+
+</head>
+
+<body>
+  <!--Corpo da página. Todo o conteúdo do site fica dentro dela.
+  
+  Exemplos:
+  - textos
+  - imagens
+  - botões
+  - vídeos
+  - links
+  - formulários -->
+
+  <h1>Hello, World!</h1>
+  <!-- Título principal da página. A tag <h1> é o maior nível de título no HTML.
+  Existem também:
+  <h2>, <h3>, <h4>...
+  
+  Quanto maior o número, menor a importância do título.-->
+
+  <p>This is my first web page.</p>
+  <!-- A tag <p> cria um parágrafo.
+  
+  Ela é usada para textos comuns e descrições.-->
+
+  <img src="image.jpg" alt="Description of the image">
+    <!-- A tag <img> insere uma imagem na página. 
+     alt é um texto alternativo que aparece se a imagem não carregar. -->
+     
+     <ul>
+       <li>Item 1</li>
+       <li>Item 2</li>
+       <li>Item 3</li>
+    </ul>
+    <!-- A tag <ul> cria uma lista não ordenada (com marcadores).
+    Cada item da lista é definido com a tag <li>. -->
+
+     <div>
+       <p>This is a section of the page.</p>   
+    </div>
+    <!-- A tag <div> é um contêiner genérico usado para agrupar elementos e aplicar estilos. -->
+
+    <span>This is an inline element.</span>
+    <!-- A tag <span> é um elemento em linha usado para estilizar partes específicas do texto. -->
+
+    <a href="https://www.example.com">Visit Example.com</a>
+    <!-- A tag <a> cria um link. O atributo href define o destino do link. -->
+    
+    <br>
+    <!-- A tag <br> insere uma quebra de linha. -->
+
+    <input type="text" placeholder="Enter your name">
+    <!-- A tag <input> cria um campo de entrada. O atributo type define o tipo de entrada 
+     (texto, senha, etc.). O placeholder é um texto que aparece dentro do campo como dica. -->
+        
+</body>
+
+</html>

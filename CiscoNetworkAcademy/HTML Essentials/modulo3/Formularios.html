@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="submit-form.php" method="POST">       
+        </form>
+        <!-- form é usado para criar um formulário para coletar dados do usuário -->
+        <!-- action é o link para onde os dados do formulário serão 
+         enviados quando o usuário clicar no botão de envio -->
+        <!-- method especifica o método HTTP a ser usado ao enviar os dados do formulário. -->
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="useremail" required>
+        <!-- label é usado para criar um rótulo para um elemento de formulário -->
+        <!-- for é usado para associar o rótulo ao elemento de formulário correspondente -->
+        <!-- input é usado para criar um campo de entrada onde o usuário pode inserir dados -->
+        <!-- type especifica o tipo de campo de entrada -->
+        <!-- id é um identificador exclusivo para o elemento de formulário -->
+        <!-- name é o nome do campo de formulário, que é usado para identificar os dados quando eles são enviados -->
+        <!-- required torna o campo obrigatório, o usuário deve preenchê-lo antes de enviar o formulário -->
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="userpassword" required>
+        <!-- type="password" cria um campo de entrada onde os caracteres digitados são ocultados -->
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <!-- type="submit" cria um botão que, quando clicado, envia os dados do formulário para o servidor -->
+
+        <br><br>
+
+        <input type="reset" value="Reset">
+        <!-- type="reset" cria um botão que, quando clicado, limpa todos os campos do formulário, retornando-os aos seus valores padrão. -->
+
+        <br><br>
+
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe to newsletter</label>
+        <!-- type="checkbox" cria uma caixa de seleção que os usuários podem marcar ou desmarcar -->
+
+        <br><br>
+
+        <input type="radio" id="option1" name="options" value="option1">
+        <label for="option1">Option 1</label>
+        <input type="radio" id="option2" name="options" value="option2">
+        <label for="option2">Option 2</label>
+        <!-- type="radio" cria um botão de opção que os usuários podem selecionar. 
+         Os botões de opção com o mesmo valor de atributo name são agrupados, permitindo que apenas um seja selecionado por vez. -->
+
+         <br><br>
+
+         <label for="country">Country:</label>
+         <select id="country" name="country">
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+         </select>
+        <!-- select é usado para criar um menu suspenso onde os usuários podem escolher uma opção -->
+        <!-- option é usado para definir as opções disponíveis em um menu suspenso -->
+
+        <br><br>
+    
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        <!-- textarea é usado para criar um campo de texto multilinha onde os usuários podem inserir uma mensagem ou comentário -->
+         
+        <br><br>
+
+        <input type="file" id="file" name="file">
+        <!-- type="file" cria um campo de entrada que permite aos usuários 
+         selecionar um arquivo do seu dispositivo para upload -->
+         
+        <br><br>
+
+        <input type="hidden" name="userid" value="12345">
+        <!-- type="hidden" cria um campo de entrada que não é visível para os usuários, 
+         mas pode conter dados que serão enviados com o formulário -->
+
+         <br><br>
+
+         <input type="email" name="useremail" placeholder="Enter your email">
+        <!-- placeholder é um texto que aparece dentro do campo de entrada como uma dica 
+         para o usuário sobre o que deve ser inserido. -->
+
+        <br><br>
+
+        <input type="text" name="username" pattern="[A-Za-z]{3,}" title="Username must be at least 3 characters long and contain only letters.">
+        <!-- pattern é usado para definir uma expressão regular que o valor do campo de entrada deve corresponder para ser considerado válido -->
+        <!-- title fornece uma mensagem de erro personalizada que é exibida quando o valor do campo de entrada não corresponde ao padrão definido. -->
+         
+         <br><br>
+
+         <input type="number" name="age" min="18" max="99">
+        <!-- type="number" cria um campo de entrada que aceita apenas números -->
+        <!-- min e max definem os valores mínimo e máximo que o usuário pode inserir. -->
+
+         <br><br>
+
+         <input type="date" name="birthday">
+        <!-- type="date" cria um campo de entrada que permite aos usuários selecionar uma data -->
+
+         <br><br>
+
+         <input type="color" name="favcolor">
+        <!-- type="color" cria um campo de entrada que permite aos usuários selecionar uma cor -->
+         
+         <br><br>
+
+         <input type="range" name="volume" min="0" max="100">
+        <!-- type="range" cria um controle deslizante que permite aos usuários selecionar 
+         um valor dentro de um intervalo definido por min e max. -->
+
+        <br><br>
+    
+        <input type="search" name="search" placeholder="Search...">
+        <!-- type="search" cria um campo de entrada otimizado para pesquisas, 
+         geralmente com um estilo diferente e recursos adicionais, como um botão de limpeza. -->
+
+        <br><br>
+
+        <input type="url" name="website" placeholder="Enter your website URL">
+        <!-- type="url" cria um campo de entrada que valida se o valor inserido é um URL válido. -->
+
+         <br><br>
+
+         <input type="tel" name="phone" placeholder="Enter your phone number">
+        <!-- type="tel" cria um campo de entrada que valida se o valor inserido é um número de telefone válido. -->
+
+         <br><br>
+
+         <button type="button" onclick="alert('Hello, World!')">Click me!</button>
+        <!-- button é usado para criar um botão que pode ser clicado pelos usuários -->
+        <!-- type="button" cria um botão que não tem comportamento de envio de formulário por padrão -->
+        <!-- onclick é um manipulador de eventos que executa o código JavaScript especificado quando
+            o botão é clicado. -->
+
+        <br><br>
+
+        <fieldset>
+            <legend>Shipping Address</legend>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address">
+            <br>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+            <br>
+            <label for="zip-code">ZIP Code:</label>
+            <input type="text" id="zip-code" name="zip-code">
+        </fieldset>
+        <!-- fieldset é usado para agrupar elementos relacionados em um formulário -->
+        <!-- legend é usado para fornecer um título para o grupo de elementos dentro do fieldset. -->
+
+        <br><br>
+    
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" value="JohnDoe" disabled>
+        <!-- value define um valor padrão para o campo de entrada -->
+        <!-- disabled torna o campo de entrada desativado, 
+         impedindo que os usuários interajam com ele ou enviem seu valor com o formulário. -->
+        
+        <br><br>
+
+         <input type="text" name="username" readonly value="JohnDoe">
+        <!-- readonly torna o campo de entrada somente leitura,
+        impedindo que os usuários modifiquem seu valor, 
+        mas ainda permitindo que ele seja enviado com o formulário. -->
+
+        <br><br>
+
+        <input type="text" name="username" maxlength="20">
+        <!-- maxlength define o número máximo de caracteres que o usuário pode inserir no campo de entrada. -->
+
+         <br><br>
+
+         <input type="number" name="age" min="18" max="100">
+        <!-- min e max definem os valores mínimo e máximo que o usuário 
+         pode inserir em um campo de entrada do tipo number. -->
+
+        <br><br>
+
+        <input type="text" name="address" autocomplete="off">
+        <!-- autocomplete="off" desativa a funcionalidade de preenchimento automático do navegador para este campo de entrada, 
+         impedindo que o navegador sugira ou preencha automaticamente valores com base em entradas anteriores. -->
+
+        <br><br>
+
+        <input type="text" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <!-- pattern define uma expressão regular que o valor do campo de entrada deve corresponder para ser considerado válido -->
+
+
+    </body>
+</html>

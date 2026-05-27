@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <video src="myvideo.mp4" controls autoplay>
+        Your browser does not support the video tag.
+        </video>
+        <!-- video define um vídeo incorporado na página -->
+        <!-- src é o link para o arquivo de vídeo -->
+        <!-- autoplay inicializado automaticamente -->
+
+        <br><br>
+
+        <audio src="myaudio.mp3" controls autoplay>
+        Your browser does not support the audio tag.
+        </audio>
+        <!-- audio define um áudio incorporado na página -->
+
+        <br><br>
+
+        <!-- Video Example -->
+        <video controls>
+            <source src="myvideo.mp4" type="video/mp4">
+            <source src="myvideo.webm" type="video/webm">
+            <p>Your browser does not support the video tag.</p>
+        </video>
+        <!-- source é usado para fornecer diferentes formatos de vídeo para garantir a compatibilidade
+        com diferentes navegadores. -->
+        
+        <br><br>
+
+        <!-- Audio Example -->
+        <audio controls>
+            <source src="myaudiofile.mp3" type="audio/mp3">
+            <source src="myaudiofile.ogg" type="audio/ogg">
+            <p>Your browser does not support the audio tag.</p>
+        </audio>
+
+        <br><br>
+
+        <video poster="web-dev-picture.jpg" controls>
+            <source src="web-dev-video.mp4" type="video/mp4" media="(max-width: 600px)">
+            <source src="web-dev-video.webm" type="video/webm">
+        </video>
+        <!-- O atributo poster especifica uma imagem a ser exibida 
+        enquanto o vídeo não é reproduzido. -->
+
+         <br><br>
+
+         <audio controls loop>
+
+        <embed src="myfile.pdf" type="application/pdf" width="600" height="400">
+        <!-- embed é usado para incorporar um recurso externo, 
+        como um arquivo PDF, em uma página HTML. -->
+        </embed>
+
+         <br><br>
+        <br><br>
+
+        <iframe src="https://www.example.com" width="600" height="400">
+        Your browser does not support iframes.
+        </iframe>
+        <!-- iframe é usado para incorporar outra página da web dentro da página atual. -->
+    </body>
+</html>
