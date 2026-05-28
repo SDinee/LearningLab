@@ -1,0 +1,24 @@
+<header> representa o conteúdo introdutório de uma página ou seção (geralmente contém um logotipo, menu de navegação ou outras informações de identificação do site)
+
+<nav> representa uma seção de uma página que contém links para outras páginas ou seções do site. Use isso para links de navegação para ajudar os usuários a se orientarem em seu site ou página.
+
+<main> representa o conteúdo principal de uma página (não deve incluir nenhum conteúdo repetido em várias páginas, como menus de navegação, rodapés ou barras laterais)
+    
+<article> representa uma unidade independente de conteúdo ou história que pode ser distribuída ou reutilizada de forma independente, por exemplo, postagens de blog, artigos de notícias ou análises de produtos.
+
+<section> representa uma seção de uma página que agrupa conteúdo relacionado dentro de uma página ou artigo (pode ser usado para dividir uma página em várias seções ou para agrupar conteúdo dentro de uma seção maior)
+
+<aside> representa conteúdo que não está diretamente relacionado ao conteúdo principal de uma página, mas fornece informações adicionais, 
+contexto ou recursos relacionados, por exemplo, barras laterais, chamadas ou links relacionados;
+
+<footer> representa o conteúdo de fechamento de uma página ou seção/a parte inferior de uma página ou seção (geralmente contém informações de direitos autorais, detalhes de contato ou outras informações suplementares)
+
+<figcaption> representa uma legenda ou legenda para uma figura ou imagem;
+
+<figure> representa conteúdo independente, como uma imagem, diagrama ou trecho de código, referenciado no conteúdo principal de uma página;
+
+<summary> representa um resumo ou legenda para a <details> elemento;
+
+<details> representa um widget de divulgação que pode ser usado para mostrar ou ocultar informações adicionais;
+
+Etiquetas de título (<h1> para <h6>) – delinear a estrutura do conteúdo na página web e definir uma hierarquia.
