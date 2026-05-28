@@ -1,0 +1,11 @@
+Elementos embutidos não começam em uma nova linha e normalmente são usados para alterar o significado de uma parte do texto, sem criar um novo bloco ou seção. Exemplos incluem:
+
+<em> – enfatiza o texto, geralmente exibido em itálico, indicando uma mudança sutil de tom ou ênfase adicional em uma palavra ou frase.
+<strong> – indica forte importância ou urgência do texto, comumente exibido em negrito.
+<mark> – destaca partes do texto para referência ou ênfase, geralmente com uma cor de fundo.
+<cite> – usado para referenciar o título de uma obra, fornecendo uma maneira semântica de indicar fontes ou referências.
+<q> – define uma citação curta em linha.
+<dfn> – representa a instância definidora de um termo.
+<abbr> – denota uma abreviatura ou sigla; a definição completa pode ser fornecida no título atributo.
+<data> – vincula o conteúdo fornecido a uma tradução legível por máquina (por exemplo, um ID de produto)
+<time> – representa um período ou data específica, adicionando significado semântico a horários ou datas dentro do texto.
