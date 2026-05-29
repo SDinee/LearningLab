@@ -1,0 +1,19 @@
+// Save the theme to local storage
+localStorage.setItem('theme', 'dark');
+
+// Retrieve the theme when the user comes back
+const userTheme = localStorage.getItem('theme');
+document.body.classList.add(userTheme); // Applies the 'dark' theme
+
+Salvando uma configuração de tema – o código começa salvando uma configuração no seu computador que informa ao site qual tema você prefere, 
+neste caso, um tema "escuro". É como deixar um bilhete para si mesmo para que você se lembre de algo mais tarde.
+
+Como ele salva – ele usa algo chamado armazenamento local para salvar esta nota. 
+Pense em armazenamento local como um pequeno espaço de armazenamento privado no seu computador, onde o site pode salvar informações. 
+Aqui, ele salva uma informação com o rótulo "tema" e atribui a ela o valor "escuro".
+
+Recuperando o tema – mais tarde, quando você retorna ao site, o código analisa esse espaço de armazenamento para encontrar a nota que ele deixou anteriormente. 
+Ele verifica o rótulo "tema" para ver o que você preferiu.
+
+Aplicando sua preferência – uma vez que ele encontra essa nota e vê "escuro", ele sabe que você prefere o tema escuro. Então, 
+ele muda a aparência do site para o modo escuro. Isso é feito adicionando "escuro" à lista de características do site (especificamente, ao corpo da página da web), o que aciona a ativação do tema escuro.
