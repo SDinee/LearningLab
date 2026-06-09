@@ -1,0 +1,18 @@
+Nome do animal: Garra Ligeira
+Preço unitário do animal: 0.0
+Quantidade: 3
+Preço unitário da comida: 420.0
+Consumo fixo de comida: 90 por animal
+Quantidade total de comida: 270
+Preço total da comida: 113400.00
+Preço unitário do pelego: 555.00
+Pelegos fixos: 20 por animal
+Preço total dos pelegos: 33300.00
+Valor de venda por animal: 91000.0
+Receita total: 273000.00
+Custo total: 146700.00
+Taxa de listagem (2,5%): 6825.00
+Imposto de venda aproximado: 19110.00
+Taxas totais: 25935.00
+Resultado final: Lucro (100365.00)
+=====================================
