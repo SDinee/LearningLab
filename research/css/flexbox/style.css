@@ -5,7 +5,7 @@ body{
 .flex-container{
     display: flex;
     gap: 30px;
-    height: 600px;
+    height: 300px;
     flex-direction: row;
     /*flex-wrap: wrap;*/
     /*flex-flow: column wrap;*/
