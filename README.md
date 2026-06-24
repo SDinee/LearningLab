@@ -1,17 +1,12 @@
 # 📚 Learning Lab
 
 Este repositório reúne meus aprendizados fora da faculdade, incluindo cursos complementares, documentações, projetos pessoais e anotações de estudo.  
-O objetivo é organizar e compartilhar o conhecimento adquirido de forma prática e acessível.
+O objetivo é consolidar aprendizados adquiridos em cursos online, tutoriais e leituras, além de servir como referência futura para estudos e revisões.
 
 ---
 
-## 🎯 Objetivo
-- Consolidar aprendizados adquiridos em cursos online, tutoriais e leituras.  
-- Documentar práticas, exemplos e projetos desenvolvidos.  
-- Servir como referência futura para estudos e revisões.  
-
 ## 📂 Estrutura do Repositório
-- `docs/` → Documentações e conteúdos estudados  
+- `research/` → Documentações e conteúdos estudados  
 - `projects/` → Projetos práticos e exercícios  
 - `courses/` → Material de cursos complementares    
 
@@ -22,9 +17,17 @@ Principais áreas de estudo:
 - Outros tópicos futuros  
 
 ## 📈 Linha do Tempo de Aprendizado
-- ✅ **Python Flask** – Quickstart documentação oficial  
+
+Courses
+
 - ✅ **HTML Essentials** – Cisco Networking Academy  
-- 🔜 **CSS Essentials** – Cisco Networking Academy  
+- 🔜 **CSS Essentials** – Cisco Networking Academy 
+
+Research
+
+- ✅ **Python Flask** – Quickstart documentação oficial  
+- ⏳ **CSS** - Pesquisas e vídeo aula
+
 - ⏳ Próximos passos: JavaScript, etc.  
 
 ## 🗂 Como usar
