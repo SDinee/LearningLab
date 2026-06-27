@@ -13,7 +13,7 @@ def funcao2():
 funcao()  # Imprime 10
 funcao2()  # Imprime 20
 print(variavel_global)  # Imprime 20
-print(variavel_local)  # Gera um erro, a variável não está definida neste escopo.
+print("variavel_local")  # Gera um erro, a variável não está definida neste escopo. (aspas apenas para remover o erro de sintaxe, pois a variável não está definida neste escopo)
 
 """As variáveis definidas dentro de uma função têm um escopo local, o que significa que só são acessíveis dentro da função. 
 Por outro lado, as variáveis definidas fora de qualquer função têm um escopo global e podem ser acessadas de qualquer parte do programa.
