@@ -2,7 +2,7 @@
 
 def funcao():
     # Código que pode gerar uma exceção personalizada
-    if condicao:
+    #if condicao:
         raise Exception("Descrição do erro")
 
 
