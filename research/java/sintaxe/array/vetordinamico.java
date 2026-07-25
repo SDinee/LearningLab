@@ -1,4 +1,4 @@
-package research.java.array;
+package research.java.sintaxe.array;
 
 import java.util.ArrayList;
 // ArrayList é uma classe que implementa a interface List, permitindo criar listas dinâmicas, ou seja, listas que podem crescer ou diminuir de tamanho conforme necessário. 

@@ -1,4 +1,4 @@
-package research.java.array;
+package research.java.sintaxe.array;
 
 public class vetores {
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class vetores {
 
         System.out.println(colecaoDeInteiros[0]);
         System.out.println(colecaoDeInteiros.length); // length é tamanho
-        
+
         System.out.println("=".repeat(30));
         // repetir 30 vezes o caractere "="
 
