@@ -1,4 +1,4 @@
-package research.java.tiposprimitivos;
+package research.java.sintaxe.tiposprimitivos;
 
 public class tipos {
     // inteiros = 100, 232323, 255, 120, 1
