@@ -14,6 +14,7 @@ O objetivo é consolidar aprendizados adquiridos em cursos online, tutoriais e l
 Principais áreas de estudo:
 - Python (Flask)  
 - Web Dev.
+- Java
 - Outros tópicos futuros  
 
 ## 📈 Linha do Tempo de Aprendizado
@@ -27,6 +28,7 @@ Research
 
 - ✅ **Python Flask** – Quickstart documentação oficial  
 - ⏳ **CSS** - Pesquisas e vídeo aula
+- ⏳ **Java** - Pesquisas e vídeos cursos
 
 - ⏳ Próximos passos: JavaScript, etc.  
 
