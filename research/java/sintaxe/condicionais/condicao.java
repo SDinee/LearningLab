@@ -1,6 +1,6 @@
 package research.java.sintaxe.condicionais;
 
-public class comeco {
+public class condicao {
     public static void main(String[] args) {
         byte b = 100;
 /*         short s = 23232;
