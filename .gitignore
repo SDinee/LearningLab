@@ -6,3 +6,4 @@ __pycache__/
 *.pyd
 *.log
 *.sqlite3
+.anotacoes.txt
