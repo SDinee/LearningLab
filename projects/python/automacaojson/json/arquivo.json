@@ -1,0 +1,112 @@
+{
+    "1": [
+        {
+            "serial": "00021",
+            "descricao": "MOUSE &amp; TECLADO",
+            "tipo_produto": "ELETRONICO",
+            "quantidade": "00015",
+            "voltagem": "220V",
+            "garantia_meses": "0012"
+        },
+        {
+            "serial": "00022",
+            "descricao": "TV &lt;SMART&gt; 55&quot;",
+            "tipo_produto": "ELETRONICO",
+            "quantidade": "00008",
+            "voltagem": "BIVOL",
+            "garantia_meses": "0024"
+        }
+    ],
+    "2": [
+        {
+            "serial": "00021",
+            "descricao": "IOGURTE &amp; MEL",
+            "tipo_produto": "ALIMENTO",
+            "quantidade": "00012",
+            "data_validade": "15122026",
+            "temperatura": "REF"
+        },
+        {
+            "serial": "00022",
+            "descricao": "ARROZ &lt;PREMIUM&gt;",
+            "tipo_produto": "ALIMENTO",
+            "quantidade": "00025",
+            "data_validade": "30062027",
+            "temperatura": "AMB"
+        }
+    ],
+    "3": [
+        {
+            "serial": "00021",
+            "descricao": "CAMISETA &quot;URBANA&quot;",
+            "tipo_produto": "VESTUARIO",
+            "quantidade": "00034",
+            "tamanho": "M",
+            "cor": "AZUL &amp;"
+        },
+        {
+            "serial": "00022",
+            "descricao": "CAMISA D&apos;AGUA",
+            "tipo_produto": "VESTUARIO",
+            "quantidade": "00018",
+            "tamanho": "G",
+            "cor": "PRETO &lt;"
+        }
+    ],
+    "4": [
+        {
+            "serial": "00021",
+            "descricao": "O &amp; ESTRANGEIRO",
+            "tipo_produto": "LIVRO",
+            "quantidade": "00007",
+            "autor": "ALBERT CAMUS",
+            "editora": "EDITORA &apos;ALFA&apos;",
+            "num_paginas": "0256"
+        },
+        {
+            "serial": "00022",
+            "descricao": "A &lt;REVOLUCAO&gt;",
+            "tipo_produto": "LIVRO",
+            "quantidade": "00011",
+            "autor": "GEORGE ORWELL",
+            "editora": "EDITORA &quot;BETA&quot;",
+            "num_paginas": "0144"
+        }
+    ],
+    "5": [
+        {
+            "serial": "00021",
+            "descricao": "BONECA &quot;FALA&quot;",
+            "tipo_produto": "BRINQUEDO",
+            "quantidade": "00006",
+            "faixa_etaria": "6-12"
+        },
+        {
+            "serial": "00022",
+            "descricao": "JOGO D&apos;IMAGINACAO",
+            "tipo_produto": "BRINQUEDO",
+            "quantidade": "00009",
+            "faixa_etaria": "8+"
+        }
+    ],
+    "6": [
+        {
+            "serial": "00021",
+            "descricao": "CREME &amp; SABONETE",
+            "tipo_produto": "COSMETICO",
+            "quantidade": "00014",
+            "data_validade": "10102027",
+            "tipo_pele": "SECA &amp; MI",
+            "lote": "L20269999"
+        },
+        {
+            "serial": "00022",
+            "descricao": "PROTETOR &lt;SOLAR&gt;",
+            "tipo_produto": "COSMETICO",
+            "quantidade": "00020",
+            "data_validade": "25072028",
+            "tipo_pele": "PELE &quot;S L",
+            "lote": "20268888"
+        }
+    ]
+}
