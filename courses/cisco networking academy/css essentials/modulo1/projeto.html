@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        *{
+            box-sizing: border-box;
+            letter-spacing: 1px;
+        }
+        main {
+            padding: 20px;
+            height: 80vh;
+        }
+        p {
+            color: slategray;
+            font-size: 16px;
+        }
+        /* Base styles */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Section styles */
+        section {
+            margin: 20px;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333333;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+        }
+
+        /* Element selector */
+        h2 {
+            color: black;
+        }
+
+        /* Class selector */
+        .highlight {
+            background-color: orange;
+            color: white;
+            padding: 4px;
+        }
+
+        /* ID selector */
+        #header {
+            border-bottom: 2px solid orange;
+        }
+
+        /* Attribute selector */
+        a[href^="mailto:"] {
+            color: orange;
+        }
+
+        /* Pseudo-class selector */
+        a:hover {
+            color: white;
+        }
+
+        /* Pseudo-element selector */
+        p::first-line {
+            font-weight: bold;
+        }
+
+        /* Combinator selector */
+        header + main {
+            border-top: 1px solid gray;
+        }
+
+        /* Inline styles (highest specificity) */
+        h1 {
+            color: blue !important; /* Overridden by inline styles */
+        }
+
+        /* Internal styles */
+        p {
+            color: green;
+        }
+
+        /* External styles */
+        p {
+            color: red; /* Overridden by internal styles */
+        }
+
+        #header h1 {
+            color: orange !important; /* Overridden by !important */
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h1 style="color: blue; font-size: 24px;">Welcome to My Blog</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <!-- Inline styles (highest specificity) -->
+        <p style="color: gray;">Hi, I'm a budding web developer learning CSS! I enjoy adding long text to my webpage to demonstrate how the ::first-line pseudo-element works for visitors.</p>
+        </section>
+        <section>
+            <h2>My Interests</h2>
+            <p>I love <span class="highlight">coding,</span> reading, and hiking.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Contact: <a href="mailto:">info@myblog.com</a></p>
+    </footer>
+</body>
+</html>
