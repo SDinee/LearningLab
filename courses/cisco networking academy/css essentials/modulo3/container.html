@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+        width: 200px;
+        height: 100px;
+        background-color: lightblue;
+        border: 1px solid #333;
+        overflow: scroll; /* Add scrollbars when content overflows */
+        }
+
+        .content {
+        width: 250px; /* Wider than the container */
+        height: 150px; /* Taller than the container */
+        }
+
+        .center-align {
+        text-align: center;
+        border: 2px solid #ccc; /* Add a border for visualization */
+        padding: 10px; /* Add a padding for visualization */
+        }
+
+        .paragraph {
+        border: 1px dotted; /* Add a border for visualization */
+        padding: 10px; /* Add a padding for vizualization */
+        }
+
+        .container2 {
+        height: 200px; /* Set a fixed height for the container */
+        display: flex;
+        align-items: center; /* Vertical centering */
+        border: 2px solid #ccc; /* Add a border for visualization */
+        padding: 10px; /* Add padding for visualization */
+        }
+
+        .paragraph2 {
+        border: 1px dotted; /* Add a border for visualization */
+        padding: 10px; /* Add padding for visualization */
+        }
+
+        .container3 {
+        height: 200px; /* Set a fixed height for the container */
+        border: 2px solid #ccc; /* Add a border to see the box */
+        padding: 10px; /* Add some space inside the box */
+        }
+        .span {
+        vertical-align: middle;
+        border: 1px dotted; /* Add a border to see the text's space /
+        padding: 10px; / Add some space around the text */
+        }
+
+        .page-container {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        border: 2px solid #ccc;
+        overflow: hidden;
+        }
+        .header {
+        background-color: #f4f4f4;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 20px;
+        }
+
+        .main-content {
+        background-color: #add8e6;
+        padding: 20px;
+        margin-bottom: 20px;
+        }
+
+        .footer {
+        background-color: #f4f4f4;
+        text-align: center;
+        padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+        <p class="paragraph">Guitars are versatile musical instruments known for their melodic tones and rhythmic capabilities. 
+            With their strings and resonant bodies, guitars produce a wide range of sounds, from gentle and soothing to powerful and electrifying. 
+            These iconic instruments come in various types, including acoustic, classical, and electric guitars, each with its unique character and playing style.</p>
+        </div>
+    </div>
+
+    <div class="center-align">
+    <p>Horizontally centered content.</p>
+    </div>
+
+    <div class="container2">
+    <p class="paragraph2">Vertically centered content.</p>
+    </div>    
+
+    <div class="container3">
+    <p>This is some <span class="span">vertically centered</span> content.</p>
+    </div>
+
+    <div class="page-container">
+    <div class="header">Header Content</div>
+    <div class="main-content">Main Content</div>
+    <div class="footer">Footer Content</div>
+    </div>
+</body>
+</html>
