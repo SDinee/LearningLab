@@ -21,11 +21,48 @@
         /* Additional styles for better visualization */
         background-color: #f4f4f4;
         }
+        .rounded-box {
+        background-color: lightblue;
+        background-image: url('https://edube.org/uploads/media/default/0001/04/red-flower.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 15px; /* Adding rounded corners */
+        padding: 20px;
+        margin: 10px;
+        width: 300px;
+        height: 200px;
+        }
+
+        .background-size-box {
+        background-color: #add8e6;
+        background-image: url('https://edube.org/uploads/media/default/0001/04/flowers-banner.png');
+        background-size: cover; /* Ensuring the background covers the entire element */
+        background-clip: border-box; /* Defines how far the background extends */
+        padding: 30px;
+        border: 5px solid black;
+        margin: 20px;
+        }
+
+        .shadow-box {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow to give a 3D effect */
+        width: 200px; /* Sets the width of the div */
+        height: 100px; /* Sets the height of the div */
+        background-color: lightgray; /* Sets the background color */
+        margin: 50px; /* Adds space around the div */
+        text-align: center; /* Centers the text horizontally */
+        line-height: 100px; /* Centers the text vertically */
+        }        
     </style>
 </head>
 <body>
     <div class="box">
         <p>I'm a paragraph stuck in a box!</p>
     </div>
+
+    <div class="rounded-box">Rounded Box</div>
+
+    <div class="background-size-box">Background Size Box</div>
+
+    <div class="shadow-box">Shadow Box</div>
 </body>
 </html>
