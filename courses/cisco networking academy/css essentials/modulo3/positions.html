@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            background-color: lightgray;
+            margin: 50px auto;
+        }
+
+        .absolute-box {
+            position: absolute;
+            top: 50px;
+            left: 100px;
+            background-color: skyblue;
+            padding: 10px;
+        }
+/**/
+        .container2 {
+            width: 300px;
+            height: 200px;
+            background-color: lightgray;
+            margin: 50px auto;
+        }
+
+        .relative-box {
+            position: relative;
+            top: 20px;
+            left: -10px;
+            background-color: lightgreen;
+            padding: 10px;
+        }
+
+        .fixed-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: navy;
+            color: white;
+            padding: 10px;
+            width: 100%;
+        }
+
+        .content {
+            margin-top: 50px; /* Ensure content starts below the fixed navigation */
+            padding: 20px;
+        }
+
+        .sticky-nav {
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 0; /* Set to stick at the top of the viewport */
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            width: 100%;
+        }
+        .content2 {
+        padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="fixed-nav">
+        Fixed Navigation
+    </div>
+    <div class="content">
+        <h1>Lorem Ipsum</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+    <h2>Duis Irure</h2>
+    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <h2>Sed Ut Perspiciatis</h2>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+
+    <h2>Nemo Enim</h2>
+    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>    
+    </div>
+
+    <div class="container">
+    <div class="absolute-box">
+        Absolute Positioning
+    </div>
+    </div>
+
+    <div class="container2">
+        <div class="relative-box">
+            Relative Positioning
+        </div>
+    </div>
+
+    <div class="sticky-nav">
+        Sticky Navigation
+    </div>
+    <div class="content2">
+        <h1>Lorem Ipsum</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        
+        <h2>Duis Irure</h2>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
+        <h2>Sed Ut Perspiciatis</h2>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        
+        <h2>Nemo Enim</h2>
+        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+    </div>
+</body>
+</html>
