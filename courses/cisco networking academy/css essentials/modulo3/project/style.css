@@ -1,0 +1,130 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+main{
+    padding: 20px;
+    margin-top: 100px; 
+}
+
+/* Header styles */
+header {
+    background: url('https://edube.org/uploads/media/default/0001/04/products_image.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Footer styles */
+footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Product styles */
+.product {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #000;
+    margin: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.product-image {
+    position: relative;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Table styles */
+.product-specs {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-specs th, .product-specs td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.product-specs tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.product-specs tr:hover {
+    background-color: #ddd;
+}
+
+/* Form styles */
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-form form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-form fieldset {
+    border: none;
+}
+
+.contact-form legend {
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
