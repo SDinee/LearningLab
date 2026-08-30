@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .hidden {
+        display: none;
+        }
+
+        .menu-item {
+            display: inline;
+            background-color: yellow;
+            margin-right: 10px;
+            padding: 5px;
+        }
+
+        .block-element {
+            display: block;
+            background-color: lightblue;
+            margin: 10px 0;
+            padding: 10px;
+        }
+
+        .inline-block-element {
+            display: inline-block;
+            background-color: lightcoral;
+            margin: 5px;
+            padding: 10px;
+        }
+
+        .hidden-element {
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div>This div is always visible.</div>
+    <div class="hidden">This div will not be displayed.</div>
+    <div>This div is always visible.</div>
+
+    <ul>
+    <li class="menu-item">Home</li>
+    <li class="menu-item">About</li>
+    <li class="menu-item">Services</li>
+    <li class="menu-item">Contact</li>
+    </ul>
+
+    <p>This is a paragraph with <span class="block-element">a span element</span> that is now a block element.</p>
+
+    <p>This is <span class="inline-block-element">First Item</span>
+    and that is <span class="inline-block-element">Second Item</span>.</p>
+
+    <div>This div is always visible.</div>
+    <div class="hidden-element">This div is hidden but still takes up space.</div>
+    <div>This div is also visible.</div>
+
+</body>
+</html>
