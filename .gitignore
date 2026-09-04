@@ -1,9 +1,35 @@
-.vscode/
-.env
-__pycache__/
+# Build
+bin/
+obj/
 *.pyc
 *.pyo
 *.pyd
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+__pycache__/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+
+# NuGet
+packages/
+
+# Logs
 *.log
-*.sqlite3
+
+# Arquivos de configuração com informações sensíveis
+appsettings.Development.json
+appsettings.Local.json
+
+# Variáveis de ambiente
+.env
 .anotacoes.txt
+*.sqlite3
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
