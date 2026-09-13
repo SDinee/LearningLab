@@ -1,6 +1,3 @@
-<h1 align="center"> 📚 Learning Lab</h1>
-
-
 <p align="center">
   <a href="https://github.com/SDinee/LearningLab/commits/main"><img src="https://img.shields.io/github/last-commit/SDinee/LearningLab?style=for-the-badge&color=green" alt="Last Commit"></a>
   <img src="https://img.shields.io/github/repo-size/SDinee/LearningLab?style=for-the-badge&color=orange" alt="Repo Size">
