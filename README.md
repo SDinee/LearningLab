@@ -18,7 +18,7 @@ O objetivo é consolidar aprendizados adquiridos em cursos online, tutoriais e l
 
 ## 🚀 Tecnologias
 
-<img width="250" src="https://skillicons.dev/icons?i=python,java,cs,html,css" />
+<img width="250" src="https://skillicons.dev/icons?i=python,java,cs,javascript,html,css" />
 
 ## 👨‍💻 Autor
 
