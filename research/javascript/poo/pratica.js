@@ -13,16 +13,35 @@ class Personagem {
 
     receberDano(dano) {
         this.vida = this.vida - dano;
+        
+        console.log(`${this.nome} recebeu ${dano} de dano`)
+        // vida -0 = 0
+        if (this.vida <= 0) {
+            this.vida = 0
+            console.log(`${this.nome} Jogador perdeu! Sua vida zerou.`)
+        };
+    }
 
-        console.log(`${this.nome} recebeu ${dano} de dano`);
+    atacar(alvo, dano) {
+        //quem atacou
+        console.log(`${this.nome} atacou ${alvo.nome}`)
+
+        //alvo recebe dano
+        alvo.receberDano(dano)
     }
 }
 
 
 const personagem1 = new Personagem("Sidne", 100, 1);
+const personagem2 = new Personagem("Chloe", 100, 1)
 
 console.log(personagem1.apresentar());
+console.log(personagem2.apresentar())
 
-personagem1.receberDano(20);
+personagem2.atacar(personagem1, 20)
+
+console.log(personagem1.apresentar())
+
+personagem2.atacar(personagem1, 100)
 
 console.log(personagem1.apresentar())
