@@ -1,15 +1,16 @@
 class Personagem {
     #vida
+    #nivel
     constructor(nome, vida, nivel) {
         // guarda os valores recebidos na propriedade do objeto
         this.nome = nome;
         this.#vida = vida;
-        this.nivel = nivel;
+        this.#nivel = nivel;
     }
 
     apresentar() {
         // this para acessar os dados do próprio personagem
-        return `Meu nome é ${this.nome}, sou nível ${this.nivel} e tenho ${this.#vida} de vida`;
+        return `Meu nome é ${this.nome}, sou nível ${this.#nivel} e tenho ${this.#vida} de vida`;
     }
 
     receberDano(dano) {        
@@ -24,7 +25,6 @@ class Personagem {
         }
     }      
     
-
     atacar(alvo, dano) {
         if (this.#vida <= 0) {
             console.log(`${this.nome} está derrotado, não pode atacar!`);
@@ -39,6 +39,7 @@ class Personagem {
             console.log(`${alvo.nome} já está derrotado!`);
         }
     }
+    
     curar(valor) {
         // Se estiver derrotado, não permita cura
         if (this.#vida <= 0) {
@@ -47,6 +48,21 @@ class Personagem {
         // Caso esteja vivo, aumente a vida
         this.#vida = this.#vida + valor;
         console.log(`${this.nome} foi curado em ${valor}`);
+    }
+    
+    get vida() {
+        return this.#vida;
+    }
+
+    get nivel() {
+        return this.#nivel;
+    }
+
+    set nivel(novoNivel) {
+        if (novoNivel <= 0) {
+            return console.log(`O nível deve ser maior que zero.`);
+        }
+        this.#nivel = novoNivel;
     }
 }
 
@@ -72,5 +88,8 @@ personagem1.receberDano(50);
 
 curandeiro1.curarPersonagem(personagem1, 40);
 
+console.log(personagem1.vida)
+console.log(personagem1.nivel)
+personagem1.nivel = 5
 
 console.log(personagem1.apresentar());
