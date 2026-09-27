@@ -14,17 +14,15 @@ class Personagem {
     receberDano(dano) {        
         if (this.vida <= 0) {
             return;
-        } else if (this.vida > 0) {
-            this.vida = this.vida - dano;
-            console.log(`${this.nome} recebeu ${dano} de dano`)
-            if (this.vida > 0){
-                return;
-            } else {
-                this.vida = 0
-                console.log(`${this.nome} Jogador perdeu! Sua vida zerou.`)                
-            }
-        }      
-    }
+        }
+        this.vida = this.vida - dano;
+        console.log(`${this.nome} recebeu ${dano} de dano`)
+        if (this.vida <= 0){
+            this.vida = 0
+            console.log(`${this.nome} Jogador perdeu! Sua vida zerou.`)                
+        }
+    }      
+    
 
     atacar(alvo, dano) {
         if (this.vida <= 0) {
@@ -42,7 +40,6 @@ class Personagem {
 
     }
 }
-
 
 const personagem1 = new Personagem("Sidne", 150, 1);
 const personagem2 = new Personagem("Chloe", 100, 1)
