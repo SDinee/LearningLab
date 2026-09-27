@@ -23,25 +23,33 @@ class Personagem {
     }
 
     atacar(alvo, dano) {
-        //quem atacou
-        console.log(`${this.nome} atacou ${alvo.nome}`)
+        if (this.vida <= 0) {
+            console.log(`${this.nome} está derrotado, não pode atacar!`)
 
-        //alvo recebe dano
-        alvo.receberDano(dano)
+        } else if (alvo.vida > 0) {
+            //quem atacou
+            console.log(`${this.nome} atacou ${alvo.nome}`)
+
+            //alvo recebe dano
+            alvo.receberDano(dano)
+        } else {
+            console.log(`${alvo.nome} já está derrotado!`)
+        }
+
     }
 }
 
 
-const personagem1 = new Personagem("Sidne", 100, 1);
+const personagem1 = new Personagem("Sidne", 150, 1);
 const personagem2 = new Personagem("Chloe", 100, 1)
 
 console.log(personagem1.apresentar());
 console.log(personagem2.apresentar())
 
-personagem2.atacar(personagem1, 20)
+personagem1.atacar(personagem2, 100)
 
-console.log(personagem1.apresentar())
+personagem1.atacar(personagem2, 100)
 
-personagem2.atacar(personagem1, 100)
+personagem1.atacar(personagem2, 100)
 
-console.log(personagem1.apresentar())
+personagem1.atacar(personagem2, 100)
