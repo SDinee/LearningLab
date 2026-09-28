@@ -79,17 +79,44 @@ class Curandeiro {
     }
 }
 
-const personagem1 = new Personagem("Sidne", 150, 1);
-const personagem2 = new Personagem("Chloe", 100, 1);
-const curandeiro1 = new Curandeiro("Clebinho");
+class Guerreiro extends Personagem {
+    constructor (nome, vida, nivel, forca) {
+        super(nome, vida, nivel);
+        this.forca = forca
+    }
 
-personagem1.receberDano(50);
-personagem1.receberDano(50);
+    golpePesado(alvo) {
+        const dano = this.forca * 2
 
-curandeiro1.curarPersonagem(personagem1, 40);
+        console.log(`${this.nome} usou golpe pesado em ${alvo.nome} causando ${dano} de dano`);
+        this.atacar(alvo, dano);
+    }
 
-console.log(personagem1.vida)
-console.log(personagem1.nivel)
-personagem1.nivel = 5
+    apresentarGuerreiro() {
+        const apresentacaoBase = super.apresentar();
+        return `${apresentacaoBase}. Minha força é ${this.forca}`;
+    }
+}
 
-console.log(personagem1.apresentar());
+const guerreiro = new Guerreiro(
+    "Kratos",
+    200,
+    5,
+    30
+);
+
+const inimigo = new Personagem(
+    "Goblin",
+    100,
+    2
+);
+
+
+console.log(guerreiro.apresentarGuerreiro());
+
+// Deve causar 60 de dano
+guerreiro.golpePesado(inimigo);
+
+// Confira a vida restante do Goblin usando
+// algo público que Personagem já possui.
+console.log(`Vida do Goblin: ${inimigo.vida}`);
